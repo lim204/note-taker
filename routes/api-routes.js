@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { readAndAppend, readFromFile, readAndRemovete, readAndRemove } = require('../helpers/fsUtils');
+const { readAndAppend, readFromFile, readAndRemove } = require('../helpers/fsUtils');
 const uuid = require('../helpers/uuid');
 
 // GET Route for retrieving all the feedback
@@ -10,7 +10,7 @@ router.get('/notes', (req, res) =>
 // POST Route for submitting feedback
 router.post('/notes', (req, res) => {
   // Destructuring assignment for the items in req.body
-  const { title,text} = req.body;
+  const {title,text} = req.body;
 
   // If all the required properties are present
   if (title && text) {
@@ -21,7 +21,7 @@ router.post('/notes', (req, res) => {
       id: uuid(),
     };
 
-    readAndAppend(newNote, './db/db.json');
+    readAndAppend(newNote,'./db/db.json');
 
     const response = {
       status: 'success',
@@ -30,7 +30,7 @@ router.post('/notes', (req, res) => {
 
     res.json(response);
   } else {
-    res.json('Error, Title and text required');
+    res.json('Error, Both title and text are required');
   }
 });
 
