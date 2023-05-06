@@ -39,6 +39,11 @@ This will run the server where  you can find the page  on localhost:3001. Rememb
 
 ![screencapture-note-taker3](https://user-images.githubusercontent.com/125234173/236599248-8ebc6675-00ea-4ac8-b133-3a98c7f6aca9.png)
 
+### Please here [Deployed link](https://lim204.github.io/note-taker/)
+
 ## Credit:
   * Started code provided by UCLA EDX BOOTCAMP
+  * Tutor session with TA Meg Meyers
+  * As reference, I used activity 24 from week 11.
+  
 
