@@ -19,7 +19,7 @@ Clone Project. Run the following command line of code in your terminal to instal
   * npm i
 
 ## Usage:
-After all the the pacckage have been installed opwn terminal and run these command line:
+After all the the package have been installed on the terminal run the following command line:
   * node server.js or nodemon server
 
 This will run the server where  you can find the page  on localhost:3001. Remember, to end your server in your terminal type : Control-c 
@@ -30,7 +30,7 @@ This will run the server where  you can find the page  on localhost:3001. Rememb
  * Bootstrap
  * Javascript
  * Node.js
-    * Expess.js
+ * Expess.js
 
 ## Screenshot:
 ![screencapture-note-taker1](https://user-images.githubusercontent.com/125234173/236599112-91bbca4e-8f47-451f-8ac0-8732f7a22219.png)
